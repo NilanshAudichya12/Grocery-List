@@ -20,7 +20,7 @@ function Form({ addItem }) {
             <h4>Grocery List</h4>
             <div className='form-control'>
                 <input type="text" className='form-input' value={text} onChange={(e) => { setText(e.target.value) }} />
-                <button type='submit' className='btn' >Submit</button>
+                <button type='submit' className='btn' >Add Item</button>
             </div>
         </form>
     )
